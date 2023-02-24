@@ -3,7 +3,7 @@
 
 #Set variables for path/name
 launchDPath="/Library/LaunchAgents"
-launchDName="com.secondsonconsulting.renew"
+launchDName="com.nbs.renew"
 
 #Get current user (use only if launch agent, not daemon)
 currentUser=$( echo "show State:/Users/ConsoleUser" | scutil | awk '/Name :/ { print $3 }' )
